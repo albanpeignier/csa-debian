@@ -1,0 +1,15 @@
+Source: csa
+Section: sound
+Priority: optional
+Maintainer: Alban Peignier <alban.peignier@free.fr>
+Uploaders: Wayne Meissner <wmeissner@gmail.com>
+Build-Depends: cdbs, debhelper
+Standards-Version: 3.7.2
+
+Package: csa
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: A group of LADSPA Audio plugin for FM broadcast and more : 
+ Emphazised Limiter, Cellular Leveler, Simple right/left amplifier, Blind Peak Meter
+ .
+ CSA means : Contrôle Signal Audio, visit http://sourceforge.net/projects/csa/
